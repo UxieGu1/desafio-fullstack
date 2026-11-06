@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Produtos</title>
 </head>
 <body>
+<div class="container">
+    <h1>Listagem de Produtos</h1>
 
+    <table>
+        <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Data de Criação</th>
+        </tr>
+        </thead>
+        <tbody id="tabela-produtos">
+        </tbody>
+    </table>
+
+    <div id="paginacao">
+        <button id="btn-anterior">Anterior</button>
+        <span id="info-pagina">Página 1</span>
+        <button id="btn-proximo">Próximo</button>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
 </body>
 </html>
